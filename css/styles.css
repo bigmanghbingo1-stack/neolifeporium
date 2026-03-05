@@ -542,6 +542,13 @@ body[data-theme="light"] .section-eyebrow {
   opacity: 1;
 }
 
+.blog-card .portfolio-overlay,
+#featuredPost .portfolio-overlay,
+#relatedPosts .portfolio-overlay {
+  transform: translateY(0);
+  opacity: 1;
+}
+
 .testimonial-stage {
   position: relative;
   min-height: clamp(210px, 28vw, 320px);

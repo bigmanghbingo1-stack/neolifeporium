@@ -144,7 +144,15 @@ function renderRelated(posts, current) {
 function renderPost(posts) {
   const slug = slugFromUrl();
   const post = posts.find((p) => p.slug === slug && !p.draft) || posts.find((p) => !p.draft);
-  if (!post) return;
+  if (!post) {
+    const title = document.getElementById("postTitle");
+    const excerpt = document.getElementById("postExcerpt");
+    const content = document.getElementById("postContent");
+    if (title) title.textContent = "Post not found";
+    if (excerpt) excerpt.textContent = "No published post matches this URL.";
+    if (content) content.innerHTML = "<p>Please return to the blog index and choose another article.</p>";
+    return;
+  }
 
   document.getElementById("postTitle").textContent = post.title;
   document.getElementById("postExcerpt").textContent = post.excerpt;
@@ -195,6 +203,12 @@ function renderBlogIndex(posts) {
   let currentQuery = "";
 
   const clean = posts.filter((p) => !p.draft).sort(byNewest);
+  if (!clean.length) {
+    featuredWrap.innerHTML = "<p class='text-white/70'>No published posts available yet.</p>";
+    grid.innerHTML = "";
+    loadMoreBtn.hidden = true;
+    return;
+  }
   const featured = clean.find((p) => p.featured) || clean[0];
   if (featured) {
     featuredWrap.innerHTML = `
