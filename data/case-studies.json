@@ -1,0 +1,79 @@
+{
+  "caseStudies": [
+    {
+      "id": "neolearn-rollout",
+      "title": "Neolearn Rollout",
+      "heroImage": "./assets/images/work-3.jpg",
+      "heroAlt": "Neolearn e-learning platform visual",
+      "overviewTitle": "Deploying an indigenous e-learning platform for multi-organization training.",
+      "overviewText": "Neolifeporium designed and implemented a practical learning ecosystem for institutional teams requiring structured upskilling at scale. The solution integrated content delivery, learner management, and reporting workflows.",
+      "clientSector": "Multi-sector organizations in Ghana",
+      "clientServices": "Neolearn setup, digital infrastructure, change enablement",
+      "clientDuration": "6 months phased rollout",
+      "challenge": "Fragmented training delivery, poor visibility into learner progress, and inconsistent digital accessibility across distributed teams.",
+      "solution": "A modular Neolearn implementation with role-based content paths, centralized analytics, and simplified onboarding for administrators and learners.",
+      "gallery": [
+        { "src": "./assets/images/work-1.jpg", "alt": "Learning studio setup" },
+        { "src": "./assets/images/work-2.jpg", "alt": "Team on digital systems" },
+        { "src": "./assets/images/about-photo.jpg", "alt": "Workshop facilitation" }
+      ],
+      "results": [
+        { "label": "Learner completion uplift (%)", "value": 68 },
+        { "label": "Admin efficiency gain (%)", "value": 42 },
+        { "label": "Institutions onboarded", "value": 15 }
+      ],
+      "nextId": "commerce-acceleration",
+      "nextLabel": "Commerce Acceleration"
+    },
+    {
+      "id": "commerce-acceleration",
+      "title": "Commerce Acceleration",
+      "heroImage": "./assets/images/work-1.jpg",
+      "heroAlt": "E-commerce operations workspace",
+      "overviewTitle": "Accelerating Ghanaian business sales through integrated online storefront operations.",
+      "overviewText": "This engagement focused on helping a business consortium launch and standardize online storefront operations, including checkout readiness, catalog structures, and digital customer workflows.",
+      "clientSector": "Retail and service businesses",
+      "clientServices": "E-commerce setup, operational enablement",
+      "clientDuration": "4 months",
+      "challenge": "Disjointed product listing workflows and no unified digital sales process across teams.",
+      "solution": "Neolifeporium introduced a standardized commerce architecture with fulfillment visibility and staff onboarding support.",
+      "gallery": [
+        { "src": "./assets/images/hero-photo.jpg", "alt": "Commerce dashboard analysis" },
+        { "src": "./assets/images/work-2.jpg", "alt": "Business digital planning" },
+        { "src": "./assets/images/work-3.jpg", "alt": "Digital operations station" }
+      ],
+      "results": [
+        { "label": "Sales process efficiency gain (%)", "value": 51 },
+        { "label": "Product catalog accuracy (%)", "value": 93 },
+        { "label": "Teams onboarded", "value": 22 }
+      ],
+      "nextId": "enterprise-infra",
+      "nextLabel": "Enterprise Infrastructure"
+    },
+    {
+      "id": "enterprise-infra",
+      "title": "Enterprise Infrastructure",
+      "heroImage": "./assets/images/work-2.jpg",
+      "heroAlt": "Enterprise digital infrastructure operations",
+      "overviewTitle": "Building secure digital infrastructure for high-scale organizational operations.",
+      "overviewText": "Neolifeporium supported enterprise stakeholders with robust platform architecture, delivery planning, and operational stability for mission-critical digital workflows.",
+      "clientSector": "Large institutions and enterprise organizations",
+      "clientServices": "Infrastructure advisory, platform implementation",
+      "clientDuration": "7 months",
+      "challenge": "Multiple disconnected systems and limited governance over digital service reliability.",
+      "solution": "A phased infrastructure modernization roadmap and operational framework aligned to enterprise scale requirements.",
+      "gallery": [
+        { "src": "./assets/images/work-2.jpg", "alt": "Infrastructure architecture workshop" },
+        { "src": "./assets/images/about-photo.jpg", "alt": "Enterprise delivery session" },
+        { "src": "./assets/images/work-1.jpg", "alt": "Implementation oversight" }
+      ],
+      "results": [
+        { "label": "Service stability improvement (%)", "value": 47 },
+        { "label": "Process consolidation (%)", "value": 58 },
+        { "label": "Departments enabled", "value": 19 }
+      ],
+      "nextId": "neolearn-rollout",
+      "nextLabel": "Neolearn Rollout"
+    }
+  ]
+}

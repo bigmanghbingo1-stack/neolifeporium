@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neolifeporium | Ghana Business Digital Infrastructure</title>
+  <meta name="description" content="Neolifeporium is a Ghanaian business services provider and Gazoma Pay corporate branch helping organizations with e-commerce, Neolearn, and enterprise digital infrastructure." />
+  <link rel="canonical" href="https://www.neolifeporium.com/index.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Neolifeporium | Ghana Business Digital Infrastructure" />
+  <meta property="og:description" content="Neolifeporium supports Ghanaian organizations with e-commerce, Neolearn, and enterprise digital infrastructure." />
+  <meta property="og:url" content="https://www.neolifeporium.com/index.html" />
+  <meta property="og:image" content="https://www.neolifeporium.com/assets/images/hero-photo.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Neolifeporium | Ghana Business Digital Infrastructure" />
+  <meta name="twitter:description" content="Neolifeporium supports Ghanaian organizations with e-commerce, Neolearn, and enterprise digital infrastructure." />
+  <meta name="twitter:image" content="https://www.neolifeporium.com/assets/images/hero-photo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { display: ["Syne", "sans-serif"], body: ["Manrope", "sans-serif"] }, colors: { ink: "var(--color-ink)", paper: "var(--color-paper)", accent: "var(--color-accent)", accent2: "var(--color-accent-2)" } } } };
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Neolifeporium Limited",
+      "url": "https://www.neolifeporium.com/",
+      "logo": "https://www.neolifeporium.com/assets/images/hero-photo.jpg",
+      "sameAs": [
+        "https://www.facebook.com/neolifeporium",
+        "https://www.linkedin.com/company/neolifeporium",
+        "https://x.com/neolifeporium"
+      ]
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Neolifeporium",
+      "url": "https://www.neolifeporium.com/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.neolifeporium.com/blog.html?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body class="bg-ink text-paper font-body antialiased overflow-x-hidden" data-page="home">
+  <canvas id="webglBg" class="webgl-bg" aria-hidden="true"></canvas>
+  <div class="page-transition" aria-hidden="true"><div class="transition-loader"><p class="transition-label">LOADING</p><div class="transition-line"><span id="transitionFill"></span></div></div></div>
+  <div class="custom-cursor" aria-hidden="true"></div>
+
+  <div id="preloader" class="fixed inset-0 z-[120] flex items-center justify-center bg-[#060607]">
+    <div class="w-[min(560px,80vw)]">
+      <div class="overflow-hidden preloader-logo-wrap">
+        <svg class="preloader-logo-svg" viewBox="0 0 200 120" role="img" aria-label="Neolifeporium logo"><path id="logoPath" class="logo-path" d="M20 95 C40 15 80 15 100 95 C120 15 160 15 180 95" data-alt-path="M20 95 C44 62 76 62 100 95 C124 62 156 62 180 95"></path></svg>
+        <p class="preloader-logo-text font-display text-5xl sm:text-7xl font-bold tracking-tight">NEOLIFEPORIUM</p>
+      </div>
+      <div class="mt-10 h-[2px] w-full bg-white/15 overflow-hidden rounded-full"><div id="preloaderBar" class="h-full w-0 bg-white"></div></div>
+      <p class="mt-3 text-right text-xs tracking-[0.28em] text-white/60">LOADING EXPERIENCE</p>
+    </div>
+  </div>
+
+  <header id="siteHeader" class="fixed top-0 left-0 w-full z-[90] transition-all duration-500">
+    <nav class="mx-auto max-w-[1440px] px-5 sm:px-10 py-5 flex items-center justify-between" aria-label="Main navigation">
+      <a href="./index.html" class="font-display text-xl tracking-[0.08em]">NEOLIFEPORIUM</a>
+      <div class="hidden md:flex items-center gap-8 text-sm text-white/80">
+        <a href="./about.html">About</a><a href="./portfolio.html">Portfolio</a><a href="./case-study.html">Case Study</a><a href="./blog.html">Blog</a><a href="./privacy-policy.html">Privacy</a>
+      </div>
+      <button id="menuToggle" class="group menu-toggle p-3 rounded-full border border-white/20 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent" aria-label="Open menu" aria-expanded="false" aria-controls="overlayMenu"><span class="menu-line"></span><span class="menu-line"></span></button>
+    </nav>
+  </header>
+
+  <aside id="overlayMenu" class="fixed inset-0 z-[95] bg-[#0c0c0f]/95 backdrop-blur-2xl pointer-events-none opacity-0" aria-hidden="true" inert>
+    <div class="h-full flex flex-col justify-between px-6 sm:px-14 py-16">
+      <ul class="space-y-6 text-4xl sm:text-6xl font-display">
+        <li><a class="overlay-link inline-block" href="./index.html">Home</a></li>
+        <li><a class="overlay-link inline-block" href="./about.html">About</a></li>
+        <li><a class="overlay-link inline-block" href="./portfolio.html">Portfolio</a></li>
+        <li><a class="overlay-link inline-block" href="./case-study.html">Case Study</a></li>
+        <li><a class="overlay-link inline-block" href="./privacy-policy.html">Privacy Policy</a></li>
+        <li><a class="overlay-link inline-block" href="./terms.html">Terms</a></li>
+      </ul>
+      <p class="text-sm text-white/50">Exclusively supporting businesses and organizations across Ghana.</p>
+    </div>
+  </aside>
+
+  <main>
+    <section id="hero" class="relative min-h-screen flex items-end overflow-hidden" data-tone-a="rgba(87,227,255,0.12)" data-tone-b="rgba(255,122,89,0.08)">
+      <div class="hero-bg-layer absolute inset-0"><img src="./assets/images/hero-photo.jpg" alt="Business professional using digital tools for online commerce operations" class="h-full w-full object-cover" fetchpriority="high" /></div>
+      <div class="hero-gradient absolute inset-0"></div>
+      <div class="relative z-10 mx-auto max-w-[1440px] w-full px-5 sm:px-10 pb-16 sm:pb-20 md:pb-24">
+        <p class="text-xs tracking-[0.32em] text-white/60 mb-6">GHANA BUSINESS SUPPORT . E-COMMERCE . NEOLEARN</p>
+        <h1 class="hero-title font-display leading-[0.9] text-[15vw] sm:text-[13vw] md:text-[11vw] max-w-6xl uppercase">Build Your<br />Online Presence</h1>
+        <div class="mt-10 flex flex-col sm:flex-row gap-4 sm:items-center">
+          <a href="./portfolio.html" class="magnetic-btn inline-flex items-center gap-2 rounded-full border border-white/20 px-8 py-3 text-sm tracking-[0.14em] uppercase" data-cursor="link">Explore Solutions <span aria-hidden="true">+</span></a>
+          <p class="text-white/70 max-w-xl">Neolifeporium serves businesses and organizations throughout Ghana with e-commerce store creation, enterprise digital infrastructure, and Neolearn-powered education delivery.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-pad" data-tone-a="rgba(96,165,250,0.1)" data-tone-b="rgba(167,139,250,0.08)">
+      <div class="mx-auto max-w-[1440px] px-5 sm:px-10 grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div>
+          <p class="section-eyebrow">ABOUT</p>
+          <h2 class="section-title max-w-2xl">A Ghana-focused digital infrastructure and business support partner.</h2>
+          <p class="reveal-up mt-8 text-white/75 max-w-xl">As a corporate branch of Gazoma Pay, Neolifeporium supports some of Ghana's largest organizations and growth-stage businesses with practical digital systems for commerce, training, and operations.</p>
+          <div class="mt-10 grid grid-cols-3 gap-4 sm:gap-8 max-w-xl">
+            <div><p class="counter text-4xl font-display" data-target="120">0</p><p class="text-xs tracking-[0.2em] text-white/60 uppercase mt-2">Organizations Supported</p></div>
+            <div><p class="counter text-4xl font-display" data-target="60">0</p><p class="text-xs tracking-[0.2em] text-white/60 uppercase mt-2">Commerce Launches</p></div>
+            <div><p class="counter text-4xl font-display" data-target="25">0</p><p class="text-xs tracking-[0.2em] text-white/60 uppercase mt-2">Neolearn Deployments</p></div>
+          </div>
+        </div>
+        <figure class="about-figure reveal-mask rounded-2xl overflow-hidden border border-white/10"><img src="./assets/images/about-photo.jpg" loading="lazy" alt="Business team planning a digital growth strategy session" class="about-image h-full w-full object-cover" /></figure>
+      </div>
+    </section>
+
+    <section id="services" class="section-pad border-y border-white/10" data-tone-a="rgba(34,211,238,0.1)" data-tone-b="rgba(251,113,133,0.07)">
+      <div class="mx-auto max-w-[1440px] px-5 sm:px-10">
+        <p class="section-eyebrow">SERVICES</p>
+        <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-4 sm:gap-6 mt-10">
+          <article class="service-card" tabindex="0"><h3 class="service-title">E-Commerce Store Creation</h3><p>Create your own e-commerce store with platform setup, product configuration, and checkout readiness.</p></article>
+          <article class="service-card" tabindex="0"><h3 class="service-title">Neolearn E-Learning</h3><p>Design and deployment of Neolearn, an indigenous Ghanaian e-learning platform expanding access to skills training across Africa.</p></article>
+          <article class="service-card" tabindex="0"><h3 class="service-title">Corporate Digital Infrastructure</h3><p>Reliable business portals, commerce systems, and digital operations infrastructure for Ghanaian organizations.</p></article>
+          <article class="service-card" tabindex="0"><h3 class="service-title">Enterprise Support</h3><p>Business products and structured implementation support for large organizations operating in Ghana.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-pad cta-section relative overflow-hidden" data-tone-a="rgba(129,140,248,0.1)" data-tone-b="rgba(45,212,191,0.08)">
+      <div class="cta-bg absolute inset-0" aria-hidden="true"></div>
+      <div class="relative z-10 mx-auto max-w-[1440px] px-5 sm:px-10">
+        <h2 class="cta-title font-display text-[14vw] sm:text-[11vw] leading-[0.85] uppercase">Scale your Ghana operations online</h2>
+        <a href="mailto:hello@neolifeporium.com" class="cta-link mt-10 inline-block text-lg sm:text-2xl" data-cursor="link">hello@neolifeporium.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-10 sm:py-14">
+    <div class="reveal-up mx-auto max-w-[1440px] px-5 sm:px-10 flex flex-col sm:flex-row gap-4 justify-between text-xs tracking-[0.18em] uppercase text-white/50">
+      <p>Neolifeporium Limited . Gazoma Pay Corporate Branch</p>
+      <p>Serving Businesses Across Ghana</p>
+      <p><a href="./privacy-policy.html">Privacy</a> . <a href="./terms.html">Terms</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r160/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script type="module" src="./js/main.js"></script>
+  <script type="module" src="./js/cookies.js"></script>
+</body>
+</html>
+

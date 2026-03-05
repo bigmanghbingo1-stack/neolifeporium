@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin | Neolifeporium CMS</title>
+  <meta name="description" content="Neolifeporium content admin dashboard for managing blog posts and metadata." />
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{fontFamily:{display:["Syne","sans-serif"],body:["Manrope","sans-serif"]},colors:{ink:"var(--color-ink)",paper:"var(--color-paper)",accent:"var(--color-accent)",accent2:"var(--color-accent-2)"}}}};</script>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body class="bg-ink text-paper font-body antialiased" data-page="admin">
+  <main class="section-pad">
+    <div class="mx-auto max-w-[1440px] px-5 sm:px-10">
+      <h1 class="section-title">Content Admin</h1>
+
+      <section id="adminGate" class="mt-8 max-w-md service-card">
+        <h2 class="service-title">Login</h2>
+        <form id="adminLogin" class="mt-4 grid gap-3" aria-label="Admin login form">
+          <label for="adminPassword">Password</label>
+          <input id="adminPassword" type="password" class="bg-white/5 border border-white/20 rounded-lg px-3 py-2" required />
+          <button class="cookie-btn" type="submit">Enter</button>
+          <p id="adminLoginError" class="text-red-300"></p>
+        </form>
+      </section>
+
+      <section id="adminPanel" hidden class="mt-8 grid lg:grid-cols-[1.2fr_1fr] gap-6">
+        <article class="service-card">
+          <div class="flex gap-2 mb-4"><button id="newPost" class="cookie-btn">New Post</button><button id="previewPost" class="cookie-btn cookie-btn-outline">Preview</button><button id="savePost" class="cookie-btn">Save & Publish</button></div>
+          <form id="postForm" class="grid gap-3" aria-label="Post editor form">
+            <input id="postId" type="hidden" />
+            <label>Title <input id="postTitle" class="bg-white/5 border border-white/20 rounded-lg px-3 py-2" required /></label>
+            <label>Slug <input id="postSlug" class="bg-white/5 border border-white/20 rounded-lg px-3 py-2" /></label>
+            <label>Excerpt <textarea id="postExcerpt" rows="2" class="bg-white/5 border border-white/20 rounded-lg px-3 py-2"></textarea></label>
+            <label>Category <input id="postCategory" class="bg-white/5 border border-white/20 rounded-lg px-3 py-2" /></label>
+            <label>Tags (comma separated) <input id="postTags" class="bg-white/5 border border-white/20 rounded-lg px-3 py-2" /></label>
+            <label>Date <input id="postDate" type="date" class="bg-white/5 border border-white/20 rounded-lg px-3 py-2" /></label>
+            <label>Author Name <input id="postAuthorName" class="bg-white/5 border border-white/20 rounded-lg px-3 py-2" /></label>
+            <label>Author Role <input id="postAuthorRole" class="bg-white/5 border border-white/20 rounded-lg px-3 py-2" /></label>
+            <label>Featured Image URL/Base64 <input id="postImage" class="bg-white/5 border border-white/20 rounded-lg px-3 py-2" /></label>
+            <label>Upload Image <input id="postImageUpload" type="file" accept="image/*" class="bg-white/5 border border-white/20 rounded-lg px-3 py-2" /></label>
+            <label>Meta Description <textarea id="postMeta" rows="2" class="bg-white/5 border border-white/20 rounded-lg px-3 py-2"></textarea></label>
+            <label class="flex gap-2 items-center"><input id="postDraft" type="checkbox" /> Draft</label>
+            <label class="flex gap-2 items-center"><input id="postFeatured" type="checkbox" /> Featured Post</label>
+            <label>Content (rich text)</label>
+            <div id="postContent" contenteditable="true" class="min-h-[220px] bg-white/5 border border-white/20 rounded-lg px-3 py-2" aria-label="Post content editor"><p></p></div>
+          </form>
+        </article>
+        <aside class="grid gap-6">
+          <article class="service-card"><h2 class="service-title text-xl">Preview</h2><div id="postPreview" class="mt-3"></div></article>
+          <article class="service-card"><h2 class="service-title text-xl">Posts</h2><div id="adminPosts" class="grid gap-3 mt-3"></div></article>
+        </aside>
+      </section>
+    </div>
+  </main>
+
+  <script type="module" src="./js/admin.js"></script>
+</body>
+</html>

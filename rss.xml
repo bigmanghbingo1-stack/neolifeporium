@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Neolifeporium Insights</title>
+    <link>https://www.neolifeporium.com/blog.html</link>
+    <description>Insights on e-commerce, Neolearn, and digital infrastructure in Ghana.</description>
+    <item>
+      <title>Ghana E-Commerce Launch Checklist for Organizations</title>
+      <link>https://www.neolifeporium.com/blog-post.html?slug=ghana-ecommerce-launch-checklist</link>
+      <guid>https://www.neolifeporium.com/blog-post.html?slug=ghana-ecommerce-launch-checklist</guid>
+      <description>A practical launch sequence for Ghanaian teams moving from offline to online operations.</description>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Neolearn Rollout Framework for Institutional Teams</title>
+      <link>https://www.neolifeporium.com/blog-post.html?slug=neolearn-rollout-framework</link>
+      <guid>https://www.neolifeporium.com/blog-post.html?slug=neolearn-rollout-framework</guid>
+      <description>How to sequence digital learning rollout from pilot cohort to full deployment.</description>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Enterprise Digital Infrastructure Basics</title>
+      <link>https://www.neolifeporium.com/blog-post.html?slug=enterprise-digital-infrastructure-basics</link>
+      <guid>https://www.neolifeporium.com/blog-post.html?slug=enterprise-digital-infrastructure-basics</guid>
+      <description>Core architecture choices that improve reliability for large organizations.</description>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Digital Governance for Growth Teams</title>
+      <link>https://www.neolifeporium.com/blog-post.html?slug=digital-governance-for-growth-teams</link>
+      <guid>https://www.neolifeporium.com/blog-post.html?slug=digital-governance-for-growth-teams</guid>
+      <description>Operational governance patterns that reduce delivery risk.</description>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Accessibility in Business Platforms</title>
+      <link>https://www.neolifeporium.com/blog-post.html?slug=accessibility-in-business-platforms</link>
+      <guid>https://www.neolifeporium.com/blog-post.html?slug=accessibility-in-business-platforms</guid>
+      <description>Inclusive design patterns for enterprise portals and learning systems.</description>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
